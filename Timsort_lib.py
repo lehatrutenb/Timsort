@@ -8,6 +8,7 @@ def InsSort(arr, start, end):
         arr[j + 1] = elem
     return arr
 
+
 def merge(arr, start, mid, end):
     if mid == end:
         return arr
@@ -39,6 +40,7 @@ def merge(arr, start, mid, end):
         ind += 1
 
     return arr
+
 
 def TimSort(arr, minrun):
     n = len(arr)
